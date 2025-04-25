@@ -1,0 +1,9 @@
+package es.entreVarales.repository;
+
+import es.entreVarales.model.Costalero;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CostaleroRepository extends JpaRepository<Costalero, String> {
+}
